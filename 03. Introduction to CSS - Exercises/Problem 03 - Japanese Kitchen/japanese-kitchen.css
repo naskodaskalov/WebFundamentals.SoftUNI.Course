@@ -1,0 +1,79 @@
+@import url('https://fonts.google.com/selection?selection.family=Lato');
+
+body {
+    font-family: 'Lato', sans-serif;
+    font-size: 14px;
+    padding: 0;
+    background: url('images/dark-wood.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 960px;
+    margin: 0 auto;
+}
+
+header {
+    background: url('images/header-page.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 180px;
+}
+
+header h1 {
+    float: right;
+    font-size: 36px;
+    margin-right: 20px;
+    margin-top: 65px;
+    margin-bottom: 0;
+}
+
+nav {
+    margin: 0;
+    background: url('images/header-page.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 50px;
+}
+
+nav ul {
+    margin: 3px 0px 5px 0px;
+    padding: 0;
+}
+
+ul {
+    list-style-type: none;
+}
+
+li {
+    display: inline;
+    font-size: 18px;
+    margin-left: 50px;
+    vertical-align: middle;
+    line-height: 50px;
+}
+
+nav a {
+    text-decoration: none;
+}
+
+nav a, a:visited {
+    color: white;
+}
+
+nav a:hover, a:active {
+    color: black;
+}
+
+main {
+    background-color: white;
+}
+
+.courses {
+    display: inline;
+    width: 65%;
+    border-right: 1px solid #ccc;
+}
+
+aside {
+    display: inline;
+    width: 30%;
+}
