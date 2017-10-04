@@ -41,8 +41,12 @@ button:hover {
 
 .content {
     display: inline;
-    width: 70%;
     float: left;
+    width: 70%;
+    margin-right: 20px;
+}
+
+.content p {
     text-align: justify;
 }
 
