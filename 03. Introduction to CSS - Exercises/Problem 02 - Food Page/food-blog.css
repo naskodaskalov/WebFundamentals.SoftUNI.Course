@@ -25,7 +25,12 @@ main {
     padding: 20px 100px;
 }
 
+.content p {
+    margin-bottom: 5px;
+}
+
 button {
+    margin-top: 0;
     background: none;
     border: 1px solid #ec5353;
     border-radius: 15px;
@@ -67,6 +72,10 @@ aside {
 
 aside img {
     width: 100%;
+}
+
+aside p {
+    padding-bottom: 20px;
 }
 
 h1 {
