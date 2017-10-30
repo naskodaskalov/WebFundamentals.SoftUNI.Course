@@ -1,0 +1,90 @@
+@import url('https://fonts.googleapis.com/css?family=Lato:400,700,900|Montserrat:400,500,600,700,800,900');
+
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Montserrat', sans-serif;
+}
+
+main {
+    width: 960px;
+    margin: 20px auto;
+}
+
+section {
+    margin-top: 30px;
+    display: flex;
+    justify-content: space-between;
+}
+
+section article img {
+    width: 100%;
+}
+
+section article {
+    width: 32%;
+}
+
+h1 {
+    text-transform: uppercase;
+    color: #383a47;
+    font-size: 24px;
+    text-align: center;
+    font-weight: 700;
+}
+
+h2 {
+    margin-top: 20px;
+    text-transform: uppercase;
+    font-size: 18px;
+    color: #383a47;
+}
+
+h3 {
+    margin-top: 20px;
+    font-weight: 800;
+    color: #979699;
+    font-size: 12px;
+}
+
+.room-details {
+    margin-left: -5px;
+    margin-top: 20px;
+    color: #979699;
+}
+
+
+
+.price-per-night {
+    color: #1d3ab0;
+    font-size: 18px;
+}
+
+li {
+    display: inline-block;
+    list-style: none;
+    padding-left: 5px;
+}
+
+li:before{
+
+    content:'\00b7';
+    color: #eae8e8;
+    font-size:50px;
+    padding-right: 5px;
+    line-height:11px;
+    vertical-align:top;
+}
+
+li:first-of-type:before {
+    content: '';
+    padding-left: 0;
+    padding-right: 0;
+}
+
+
